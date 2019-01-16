@@ -1,0 +1,6 @@
+h=int(input('Hours: '))
+m=int(input('Minutes: '))
+s=int(input('Seconds: '))
+z=h*30+m*0.5+s*(30/3600)
+print('Angle: ')
+print(z)
